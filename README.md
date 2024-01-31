@@ -1,5 +1,5 @@
 # Overview
-This C++ program is designed to read a list of words from a file, insert them into a trie data structure, and then identify the longest and second-longest compound words from the list.
+This C++ program is designed to read a list of words from a file, insert them into a trie data structure and comparing function, and then identify the longest and second-longest compound words from the list.
 
 # Files
 Task.cpp: Contains the main program logic.
