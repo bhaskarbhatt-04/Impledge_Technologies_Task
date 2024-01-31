@@ -23,3 +23,22 @@ Step 3: Compile the program using a C++ compiler. For example, using:
 g++ Task.cpp -o Task
 
 Run the compiled executable
+
+# Approach used
+
+This C++ program uses a trie to store words efficiently. It sorts words by length, focusing on longer words first. The program checks if each word is a compound of smaller words in the trie. It outputs the longest and second-longest compounds, along with processing time.
+
+Key Steps:
+
+1. Trie Implementation: Efficient storage and retrieval of words.
+
+2. Sorting by Length: Prioritize longer words for compound checks.
+
+3. Compound Word Check: Iterative search for compound words.
+
+4. Output: Display longest compounds and processing time.
+
+# Note:
+
+Trie handles prefix-based searches efficiently.
+Sorting by length optimizes compound word discovery.
