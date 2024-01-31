@@ -10,19 +10,18 @@ Output_File_2.png: Sample output window of console from Input_02.txt.
 
 C++ Compiler: Ensure that you have a C++ compiler installed on your system.
 
-How to Run
+# How to Run
 Step 1: Open a terminal or command prompt.
 Step 2: Navigate to the directory containing the source code.
 Step 3: Compile the program using a C++ compiler. For example, using g++:
 
-bash
-Copy code
+# Bash
 g++ Task.cpp -o Task
 Run the compiled executable:
 
 The program will process the input file and display the longest and second-longest compound words, along with the time taken to process the file.
 
-Sample Output
+# Sample Output
 Longest Compound Word: example_longest_word
 Second Longest Compound Word: example_second_longest_word
 Time taken to process file Input_02.txt: 123.456 milliseconds
